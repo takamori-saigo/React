@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    },
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
     "module": "es6",
